@@ -9,6 +9,7 @@
 - clone the repository
 - inside the directory nest-tg-bot run npm install
 - copy .env.example to .env and make the necessary changes in it, add the TELEGRAM_BOT_TOKEN value, obtained from @BotFather
+- run migration by command `npm run typeorm migration:run`
 - run application npm run start:dev 
 
 
